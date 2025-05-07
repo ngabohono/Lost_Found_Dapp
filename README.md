@@ -1,13 +1,31 @@
-# Sample Hardhat Project
+# Lost & Found DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A decentralized application (DApp) for managing lost and found items using blockchain technology. This platform allows users to report found items and enables original owners to claim their lost possessions in a transparent and secure way.
 
-Try running some of the following tasks:
+## Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- User Registration with email and phone verification
+- Report Found Items with detailed information
+- Claim Lost Items with proof of ownership
+- Secure blockchain-based transaction system
+- Responsive UI built with React and Tailwind CSS
+
+## Tech Stack
+
+- **Frontend**: React.js with Vite
+- **Styling**: Tailwind CSS
+- **Blockchain**: Ethereum (Hardhat)
+- **Smart Contracts**: Solidity
+- **Web3 Integration**: ethers.js
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- MetaMask wallet extension
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
