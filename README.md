@@ -28,4 +28,8 @@ A decentralized application (DApp) for managing lost and found items using block
 
 1. Clone the repository:
 ```bash
+<<<<<<< HEAD
 git clone <your-repository-url>
+=======
+git clone <your-repository-url>
+>>>>>>> a61e996e6919bca8ab5b6250105251df719e0ea5
